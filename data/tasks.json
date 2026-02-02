@@ -3,24 +3,26 @@
   "tasks": [
     {
       "id": "task_001",
-      "title": "Welcome to Mission Control",
-      "description": "This is your first task! Move it to 'In Progress' to start working on it.",
+      "title": "欢迎使用 Mission Control",
+      "description": "这是您的第一个任务！将它拖到'进行中'列来开始工作。",
       "status": "backlog",
       "priority": "medium",
+      "project": "默认项目",
+      "tags": ["入门"],
       "createdAt": "2026-02-02T09:55:00Z",
       "subtasks": [
         {
           "id": "sub_001",
-          "title": "Explore the dashboard",
+          "title": "浏览仪表板",
           "done": false
         },
         {
           "id": "sub_002",
-          "title": "Create your first task",
+          "title": "创建您的第一个任务",
           "done": false
         }
       ],
-      "dod": "You understand how Mission Control works",
+      "dod": "您已了解如何使用 Mission Control",
       "comments": []
     }
   ]
